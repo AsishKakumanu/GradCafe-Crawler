@@ -5,7 +5,7 @@ A telegram bot which scraps information from [GradCafe](https://thegradcafe.com/
 
 # Create a bot
 
-<img src="https://core.telegram.org/file/811140763/1/PihKNbjT8UE/03b57814e13713da37" width="20%" height="20%" >
+<img src="https://core.telegram.org/file/811140763/1/PihKNbjT8UE/03b57814e13713da37" width="10%" height="10%" >
 
 Create a bot using botfather [Botfather](https://telegram.me/botfather)
 
@@ -32,9 +32,15 @@ To stop the bot : `/stop `
 
 # Query syntax 
 
-`<University_Name>` *Ex : Toronto* <br/>
-`<University_Name> <Program_Name>` *Ex:Toronto Applied Computing* <br/>
-`<Program_Name>` *Ex: Applied Computing* <br/>
+`<University_Name>` <br/>
+`<University_Name> <Program_Name>` <br/>
+`<Program_Name>` <br/>
+
+## Examples 
+
+*Ex : Toronto* <br/>
+*Ex : Toronto Applied Computing* <br/>
+*Ex : Applied Computing* <br/>
 
 
 # Screenshots

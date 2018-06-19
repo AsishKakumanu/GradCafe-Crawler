@@ -1,13 +1,17 @@
-import regex as re  # learn more: https://python.org/pypi/regex
-import scrapy
-import urllib.request, urllib.error, urllib.parse
-import pandas as pd
-from bs4 import BeautifulSoup
-
 import sys
 import time
+import urllib.error
+import urllib.parse
+import urllib.request
+
+import pandas as pd
+import regex as re  # learn more: https://python.org/pypi/regex
 import telepot
+from bs4 import BeautifulSoup
 from telepot.loop import MessageLoop
+
+import scrapy
+from BotToken import *
 
 status_key = {'A': 'American Student', 'U': 'International Student, with US degree',
               'I': 'International Student, without US degree', 'O': 'Other', None: 'Unknown'}
@@ -59,9 +63,8 @@ def handle(msg):
             bot.sendMessage(chat_id,String_list[i])
 
 
-TOKEN = ''  # get token from command-line
 
-bot = telepot.Bot(TOKEN)
+bot = BotToken()
 MessageLoop(bot, handle).run_as_thread()
 print('Listening ...')
 

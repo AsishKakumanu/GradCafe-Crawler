@@ -1,0 +1,4 @@
+pandas==0.22.0
+beautifulsoup4==4.6.0
+regex==2018.06.09
+telepot==12.7

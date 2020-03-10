@@ -21,7 +21,7 @@ The Username is a short name, to be used in mentions and telegram.me links. User
 Generating an authorization token
 If your existing token is compromised or you lost it for some reason, use the /token command to generate a new one.
 
-Use the token which is generated and place it in the place of the variable `TOKEN = ' '` in [scrapy.py](https://github.com/AsishKakumanu/ScrapGradCafe/blob/6dd5bf81844d7a9b761e4f6233f6b1dc0292c795/src/scrapy.py#L62) file
+Use the token which is generated and place it here ==> `TOKEN = ' '` in [scrapy.py](https://github.com/AsishKakumanu/ScrapGradCafe/blob/6dd5bf81844d7a9b761e4f6233f6b1dc0292c795/src/scrapy.py#L62) file
 
 More bot commands [here](https://core.telegram.org/bots#botfather-commands) 
 
